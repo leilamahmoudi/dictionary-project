@@ -8,6 +8,8 @@
 }
 .definition {
   background-color: #fff5eb;
+  border: #eed8cb 1px solid;
+  border-radius: 3px;
 }
 .example {
   background-color: #deedf0;
