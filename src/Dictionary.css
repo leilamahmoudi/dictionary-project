@@ -2,3 +2,16 @@
   width: 80%;
   float: left;
 }
+.Dictionary {
+  margin: 30px;
+  align-items: center;
+}
+.definition {
+  background-color: #fff5eb;
+}
+.example {
+  background-color: #deedf0;
+}
+.partOfSpeech {
+  background-color: #f4c7ab;
+}
