@@ -1,0 +1,9 @@
+.audio-controls {
+  width: 30%;
+  height: 20px;
+  float: inline-end;
+  margin: 5px 10px;
+}
+.text-phonetic {
+  margin: 0 10px;
+}

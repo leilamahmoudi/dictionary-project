@@ -1,0 +1,17 @@
+.meaning {
+  background-color: white;
+  margin: 20px 0;
+  padding: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.185);
+  border-radius: 5px;
+  font-size: 20px;
+}
+.meaning h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.example {
+  margin-top: 10px;
+  color: rgba(85, 84, 84, 0.781);
+  font-size: 20spx;
+}

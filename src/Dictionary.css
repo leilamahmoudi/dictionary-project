@@ -1,19 +1,41 @@
+body {
+  background-color: #fff5eb;
+  margin-top: 20px;
+  font-family: "Playfair Display", serif;
+  line-height: 1.6;
+}
+
+.Dictionary {
+  width: 1024px;
+  height: auto;
+  position: relative;
+  clear: both;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
 .form-control {
   width: 80%;
-  float: left;
+  display: inline;
+  border-radius: 20px;
+  height: 40px;
 }
-.Dictionary {
-  margin: 30px;
-  align-items: center;
+.search-btn {
+  display: inline;
+  border-radius: 50px;
+  margin-left: 20px;
+  height: 40px;
+  width: 40px;
+  border: 1px solid rgba(128, 128, 128, 0.385);
 }
-.definition {
-  background-color: #fff5eb;
-  border: #eed8cb 1px solid;
-  border-radius: 3px;
+.form-inline {
+  width: 1170px;
+  position: relative;
+  clear: both;
+  margin: 0 auto;
 }
-.example {
-  background-color: #deedf0;
-}
-.partOfSpeech {
-  background-color: #f4c7ab;
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 15px;
 }
