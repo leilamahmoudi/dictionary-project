@@ -1,5 +1,5 @@
 body {
-  background-color: #fff5eb;
+  background-color: #404b69;
   margin-top: 20px;
   font-family: "Playfair Display", serif;
   line-height: 1.6;
@@ -15,10 +15,11 @@ body {
 }
 
 .form-control {
-  width: 80%;
+  width: 75%;
   display: inline;
   border-radius: 20px;
   height: 40px;
+  color: #3f72af;
 }
 .search-btn {
   display: inline;
@@ -38,4 +39,19 @@ h1 {
   font-size: 30px;
   font-weight: bold;
   margin-bottom: 15px;
+}
+
+.section {
+  color: #112d4e;
+  background-color: #dbedf3;
+  margin: 125px 0px 0px 0px;
+  padding: 25px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.185);
+  border-radius: 8px;
+}
+
+.header {
+  padding: 10px 16px;
+
+  color: #dbe2ef;
 }

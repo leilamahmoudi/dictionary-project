@@ -1,9 +1,9 @@
 .pos-header {
-  background-color: white;
+  background-color: #dbedf3;
   margin: 20px 0;
   padding: 20px;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.185);
-  border-radius: 5px;
+  border-radius: 8px;
 }
 .pos-header h2 {
   margin-bottom: 20px;

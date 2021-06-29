@@ -51,22 +51,25 @@ export default function Dictionary(props) {
     return (
       <div className="Dictionary">
         <div className="container">
-          <h1>What word do you want to look up?</h1>
-          <form className="form-inline " onSubmit={handelSubmit}>
-            <input
-              className="form-control mr-sm-2"
-              type="search"
-              placeholder="Search"
-              onChange={handelKeywordChange}
-              defaultValue={props.defaultKeyword}
-            />
-            <button className=" search-btn" type="submit">
-              <i className="fas fa-search"></i>
-            </button>
-          </form>
+          <div className="section">
+            <h1>What word do you want to look up?</h1>
+            <form className="form-inline " onSubmit={handelSubmit}>
+              <input
+                className="form-control mr-sm-2"
+                type="search"
+                placeholder="Search"
+                onChange={handelKeywordChange}
+                defaultValue={props.defaultKeyword}
+              />
+              <button className=" search-btn" type="submit">
+                <i className="fas fa-search"></i>
+              </button>
+            </form>
+          </div>
+
+          <Results results={results} />
+          <Photos photos={photos} />
         </div>
-        <Results results={results} />
-        <Photos photos={photos} />
       </div>
     );
   } else {

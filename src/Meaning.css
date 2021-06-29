@@ -1,10 +1,11 @@
 .meaning {
-  background-color: white;
+  background-color: #dbedf3;
   margin: 20px 0;
   padding: 20px;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.185);
   border-radius: 5px;
   font-size: 20px;
+  color: #112d4e;
 }
 .meaning h3 {
   font-size: 30px;
@@ -12,6 +13,6 @@
 }
 .example {
   margin-top: 10px;
-  color: rgba(85, 84, 84, 0.781);
+  color: #3f72af;
   font-size: 20spx;
 }

@@ -3,7 +3,17 @@
   height: 20px;
   float: inline-end;
   margin: 5px 10px;
+  color: #112d4e;
 }
 .text-phonetic {
   margin: 0 10px;
+  color: #112d4e;
+}
+.Phonetic {
+  display: flex;
+  align-items: center;
+  color: #112d4e;
+}
+h2 {
+  color: #112d4e;
 }
