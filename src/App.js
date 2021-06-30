@@ -7,13 +7,25 @@ export default function App() {
       <div className="navbar">
         <p className="header">English Dictionary </p>
         <p>
-          <a href="https://www.instagram.com/leilaa.mahmoudi/">
+          <a
+            href="https://www.instagram.com/leilaa.mahmoudi/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i class="fab fa-3x fa-instagram-square"></i>
           </a>
-          <a href="https://github.com/leilamahmoudi">
+          <a
+            href="https://github.com/leilamahmoudi"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i class="fab fa-3x fa-github"></i>
           </a>
-          <a href="https://www.linkedin.com/in/leila-mahmoudi-96a417202/">
+          <a
+            href="https://www.linkedin.com/in/leila-mahmoudi-96a417202/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i class="fab fa-3x fa-linkedin"></i>
           </a>
         </p>
@@ -28,6 +40,7 @@ export default function App() {
           <a
             href="https://www.linkedin.com/in/leila-mahmoudi-96a417202/"
             target="_blank"
+            rel="noreferrer"
           >
             leila mahmoudi
           </a>{" "}
@@ -35,6 +48,7 @@ export default function App() {
           <a
             href="https://github.com/leilamahmoudi/dictionary-project"
             target="_blank"
+            rel="noreferrer"
           >
             {" "}
             GitHub
