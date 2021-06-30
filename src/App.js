@@ -6,7 +6,7 @@ export default function App() {
     <div className="App">
       <div className="navbar">
         <p className="header">English Dictionary </p>
-        <a>
+        <p>
           <a href="https://www.instagram.com/leilaa.mahmoudi/">
             <i class="fab fa-3x fa-instagram-square"></i>
           </a>
@@ -16,7 +16,7 @@ export default function App() {
           <a href="https://www.linkedin.com/in/leila-mahmoudi-96a417202/">
             <i class="fab fa-3x fa-linkedin"></i>
           </a>
-        </a>
+        </p>
       </div>
       <div className="container">
         <header className="App-header"></header>
