@@ -23,7 +23,18 @@ export default function App() {
         <main>
           <Dictionary defaultKeyword="ocean" />
         </main>
-        <footer className="App-footer">Coded by Leila Mahmoudi</footer>
+        <footer className="App-footer">
+          This project was coded by{" "}
+          <a href="https://www.linkedin.com/in/leila-mahmoudi-96a417202/">
+            leila mahmoudi
+          </a>{" "}
+          is open-sourced on
+          <a href="https://github.com/leilamahmoudi/dictionary-project">
+            {" "}
+            GitHub
+          </a>{" "}
+          and hosted on Netlify
+        </footer>
       </div>
     </div>
   );
