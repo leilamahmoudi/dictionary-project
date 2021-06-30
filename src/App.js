@@ -25,11 +25,17 @@ export default function App() {
         </main>
         <footer className="App-footer">
           This project was coded by{" "}
-          <a href="https://www.linkedin.com/in/leila-mahmoudi-96a417202/">
+          <a
+            href="https://www.linkedin.com/in/leila-mahmoudi-96a417202/"
+            target="_blank"
+          >
             leila mahmoudi
           </a>{" "}
           is open-sourced on
-          <a href="https://github.com/leilamahmoudi/dictionary-project">
+          <a
+            href="https://github.com/leilamahmoudi/dictionary-project"
+            target="_blank"
+          >
             {" "}
             GitHub
           </a>{" "}
